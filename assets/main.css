@@ -203,10 +203,11 @@ li {
 
 .organizers-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 30px;
-  justify-items: center;
-  padding: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+  grid-auto-flow: column dense; 
+  gap: 0px;
+  justify-items: left;
+  padding: 0px;
 }
 
 .organizer {
